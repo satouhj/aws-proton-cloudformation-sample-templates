@@ -236,3 +236,4 @@ Outputs:
   CloudMapNamespaceId:
     Description: CloudMap namespace Id
     Value: !GetAtt 'CloudMapNamespace.Id'
+
