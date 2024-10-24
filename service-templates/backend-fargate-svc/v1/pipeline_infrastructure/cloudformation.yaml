@@ -204,6 +204,7 @@ Resources:
                   - -*
           - Action:
               - ecr:GetAuthorizationToken
+              - ecr:BatchGetImage
             Effect: Allow
             Resource: "*"
           - Action:
@@ -213,7 +214,6 @@ Resources:
               - ecr:InitiateLayerUpload
               - ecr:PutImage
               - ecr:UploadLayerPart
-              - ecr:BatchGetImage
             Effect: Allow
             Resource:
               Fn::GetAtt:
