@@ -175,3 +175,5 @@ Outputs:
     Value: "{{service_instance.name}}.{{service.name}}.{{environment.name}}.local:{{service_instance.inputs.port}}"
 
 
+
+
